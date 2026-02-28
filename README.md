@@ -1,9 +1,5 @@
 # RDP性能优化工具 (RDP Optimizer)
 
-[![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://www.microsoft.com/windows)
-
 一个基于Python的图形化界面工具，用于优化Microsoft远程桌面协议(RDP)的性能和视觉体验。本项目是 [fstanis/RDP-Tweaks](https://github.com/fstanis/RDP-Tweaks) 的中文优化版本，提供了更友好的用户界面和更详细的配置说明。
 
 ## 📋 项目特色
@@ -52,26 +48,16 @@
 - Python 3.6 或更高版本
 - 管理员权限（必需）
 
-### 依赖库
-```bash
-pip install tkinter  # 通常已包含在Python标准库中
-```
-
 ## 📥 使用方法
 
-### 1. 下载项目
-```bash
-git clone https://github.com/your-username/rdp-optimizer.git
-cd rdp-optimizer
-```
 
-### 2. 运行程序
+### 1. 运行程序
 ```bash
 # 以管理员身份运行
 python rdp_optimizer.py
 ```
 
-### 3. 配置优化
+### 2. 配置优化
 1. 程序启动后，界面将显示所有可用的优化选项
 2. 勾选您想要启用的优化功能
 3. 选择RemoteFX质量预设（高质量/低质量/禁用）
@@ -124,26 +110,6 @@ python rdp_optimizer.py
 - **图像质量**：改善文本和图形的渲染质量
 - **网络效率**：提高带宽利用率
 
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request来改进本项目！
-
-### 开发环境设置
-```bash
-# 克隆项目
-git clone https://github.com/your-username/rdp-optimizer.git
-
-# 进入项目目录
-cd rdp-optimizer
-
-# 安装开发依赖（如有）
-pip install -r requirements.txt
-```
-
-### 代码规范
-- 遵循PEP 8代码风格
-- 使用中文注释和文档
-- 保持代码简洁和可读性
 
 ## 📄 许可证
 
@@ -154,13 +120,5 @@ pip install -r requirements.txt
 - 感谢 [fstanis/RDP-Tweaks](https://github.com/fstanis/RDP-Tweaks) 项目的启发
 - 感谢所有贡献者和测试者
 - 感谢开源社区的支持
-
-## 📞 联系信息
-
-如有问题或建议，请通过以下方式联系：
-- GitHub Issues: [提交问题](https://github.com/your-username/rdp-optimizer/issues)
-- Email: your-email@example.com
-
----
 
 **免责声明**: 本工具修改Windows注册表，使用风险自负。建议在生产环境使用前进行充分测试。
