@@ -56,6 +56,12 @@
 # 以管理员身份运行
 python rdp_optimizer.py
 ```
+或者自行打包
+
+```bash
+pip install nuitka
+python -m nuitka --standalone --onefile --remove-output --enable-plugin=tk-inter --windows-console-mode=disable --windows-icon-from-ico=远程桌面.ico rdp_optimizer.py
+```
 
 ### 2. 配置优化
 1. 程序启动后，界面将显示所有可用的优化选项
